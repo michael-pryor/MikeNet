@@ -1,0 +1,821 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\UNIVERSAL PLUG AND PLAY">
+      <UniqueIdentifier>{3d6309ab-52a8-4bff-a45f-c543db44e77d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UNIVERSAL PLUG AND PLAY\Classes">
+      <UniqueIdentifier>{039030b2-50d3-409a-b77a-af08aa8007c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UNIVERSAL PLUG AND PLAY\Sub Global">
+      <UniqueIdentifier>{8684d2bb-be8d-4092-8dd5-fae5583450d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UNIVERSAL PLUG AND PLAY\MikeNet Commands">
+      <UniqueIdentifier>{7719d9dd-3bcb-48a3-b751-8a0ffafc35b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NETWORKING">
+      <UniqueIdentifier>{f6f1d890-5d0b-43db-a80a-c2946eb94425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NETWORKING\MikeNet Commands">
+      <UniqueIdentifier>{08150959-2c5f-4200-b27b-16aa7de3f7a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NETWORKING\Sub Global">
+      <UniqueIdentifier>{1ece620d-00ba-4c19-82ec-7bd880b0397e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NETWORKING\Classes">
+      <UniqueIdentifier>{55fb1b81-ade6-4b60-872e-39b84c7baaba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NETWORKING\Classes\Mode">
+      <UniqueIdentifier>{9a81259b-8ee8-4a24-b87e-b8a41e14083d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NETWORKING\Classes\Completion Port">
+      <UniqueIdentifier>{fadbc71a-cc7c-431b-9a2b-50d056ad460a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NETWORKING\Classes\Instance">
+      <UniqueIdentifier>{9d45121d-f692-483e-9af1-8338fca1f84e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NETWORKING\Classes\Socket">
+      <UniqueIdentifier>{79bc8f84-35db-4c45-a8a3-06b9c56a46d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NETWORKING\Classes\Send">
+      <UniqueIdentifier>{47f4ab24-e815-4c21-a5ca-386aeccb256c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GLOBAL">
+      <UniqueIdentifier>{0773bb4a-39f2-4f58-854e-e6ab1aea55a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GLOBAL\General use">
+      <UniqueIdentifier>{79d26ba6-bb06-4dc0-85aa-5deea08f2a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GLOBAL\General use\Multithreading">
+      <UniqueIdentifier>{51debbb9-3426-4e0f-bcd3-fe1c57d19559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GLOBAL\Error dealing">
+      <UniqueIdentifier>{db52f227-3817-47a0-9b87-3cd9a04226d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GLOBAL\Objects">
+      <UniqueIdentifier>{eb73d920-0dd1-442d-8a8f-3718590d991a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GLOBAL\COM">
+      <UniqueIdentifier>{21d43288-42e1-4049-966c-3a8169b1af63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GLOBAL\CLR">
+      <UniqueIdentifier>{283041ac-111b-4a58-8a08-d852a0bc519c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GLOBAL\DBP">
+      <UniqueIdentifier>{47042d77-d118-41ac-886a-aa5f1f0959d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SOUND">
+      <UniqueIdentifier>{c39c72cf-405c-407e-a7d9-6173cf6fd200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SOUND\Classes">
+      <UniqueIdentifier>{2417660f-1374-4531-aa74-39b2b61eda36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SOUND\MikeNet Commands">
+      <UniqueIdentifier>{80d1a4e0-f1e6-406b-b8e2-427b72db7f28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SOUND\Sub Global">
+      <UniqueIdentifier>{4597cc43-e3bd-4747-8965-713a922eb8a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\UNIVERSAL PLUG AND PLAY">
+      <UniqueIdentifier>{decbe0a6-55c4-4f3a-b17e-afbec86cf50f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UNIVERSAL PLUG AND PLAY\Classes">
+      <UniqueIdentifier>{002d53ab-58a1-4e98-8361-7608ef7e0a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UNIVERSAL PLUG AND PLAY\Sub Global">
+      <UniqueIdentifier>{4bbed663-9955-48f8-9406-58e8fdbfcf46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UNIVERSAL PLUG AND PLAY\MikeNet Commands">
+      <UniqueIdentifier>{d022e986-2671-433d-9cc6-e0c6831b1e02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NETWORKING">
+      <UniqueIdentifier>{3a507a53-77d5-4d6d-8be1-78da6226c289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NETWORKING\MikeNet Commands">
+      <UniqueIdentifier>{e7a8f542-2887-4ab1-bfa5-3cf32eb878e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NETWORKING\Sub Global">
+      <UniqueIdentifier>{8b56f35f-0008-409a-b18a-77dca981e88d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NETWORKING\Classes">
+      <UniqueIdentifier>{ec055773-fc0b-42d4-94e3-1b2458cbf777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NETWORKING\Classes\Mode">
+      <UniqueIdentifier>{a83c44b2-1c49-495c-b79d-0a2093d3bc47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NETWORKING\Classes\Socket">
+      <UniqueIdentifier>{b6ee65ab-2fe1-4b61-bf6c-f00e04eda889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NETWORKING\Classes\Send">
+      <UniqueIdentifier>{6ad1f53f-5ada-4971-9cee-e5fc3a7a17ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NETWORKING\Classes\Instance">
+      <UniqueIdentifier>{09793750-e0cf-426d-8cfe-215295a404d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NETWORKING\Classes\Completion Port">
+      <UniqueIdentifier>{f17cb061-e61e-41c6-a585-dc4b43d60588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GLOBAL">
+      <UniqueIdentifier>{00c289f3-1f97-43b8-a4a6-1b9afb34186f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GLOBAL\Error dealing">
+      <UniqueIdentifier>{5ce3b9f3-c10c-4ef7-9b4b-db15e1f816d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GLOBAL\Objects">
+      <UniqueIdentifier>{e30ecdbb-2194-4d55-8c21-021091393cf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GLOBAL\General use">
+      <UniqueIdentifier>{f329ca9b-78d3-4b12-8081-c63f151f7b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GLOBAL\General use\Multithreading">
+      <UniqueIdentifier>{b5208b71-471f-482a-82b9-7f890a9134b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GLOBAL\COM">
+      <UniqueIdentifier>{65ebfb81-5382-4eae-8408-08f4bf371e35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GLOBAL\CLR">
+      <UniqueIdentifier>{5ddb959a-3d78-4848-a19d-23ba8eaeec4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GLOBAL\DBP">
+      <UniqueIdentifier>{d887a18c-7c99-499a-bccd-5363d3c92a7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SOUND">
+      <UniqueIdentifier>{57134bad-015b-4abf-a7e6-c2acf2d18004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SOUND\Classes">
+      <UniqueIdentifier>{fc446492-cc3f-4a3c-af3d-3f8147b7769f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SOUND\MikeNet Commands">
+      <UniqueIdentifier>{f210dee8-c8c9-482d-9fdb-e9d813492f63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SOUND\Sub Global">
+      <UniqueIdentifier>{b9914a96-0a2b-4a71-ad2c-a31fae0eb68d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Documentation">
+      <UniqueIdentifier>{ec315bd6-cc8f-414c-a050-05f4c70f0ec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GLOBAL\General use\Store">
+      <UniqueIdentifier>{5b1bf872-7b49-4472-8f34-7570a440d7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GLOBAL\General use\Store">
+      <UniqueIdentifier>{6bc7499c-2a9e-4413-adf4-bc2d319f8b9c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mnNAT.cpp">
+      <Filter>Source Files\UNIVERSAL PLUG AND PLAY\MikeNet Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorFunctions.cpp">
+      <Filter>Source Files\GLOBAL\Error dealing</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalObjects.cpp">
+      <Filter>Source Files\GLOBAL\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="mnCLRWrapper.cpp">
+      <Filter>Source Files\GLOBAL\CLR</Filter>
+    </ClCompile>
+    <ClCompile Include="mnDBPWrapper.cpp">
+      <Filter>Source Files\GLOBAL\DBP</Filter>
+    </ClCompile>
+    <ClCompile Include="_ManageSoundOutput.cpp">
+      <Filter>Source Files\SOUND\Sub Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Documentation.cpp">
+      <Filter>Documentation</Filter>
+    </ClCompile>
+    <ClCompile Include="NetInstanceBroadcast.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="NetInstanceClient.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="NetInstanceContainer.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="NetInstanceGroup.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="NetInstanceProfile.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="NetInstanceServer.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="NetServerClient.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="NetInstanceTCP.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="NetInstanceUDP.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="NetModeUdpCatchAllNo.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="NetModeUdpCatchAll.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="NetModeTcpPrefixSize.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="NetModeUdpPerClient.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="NetModeTcpPostfix.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="NetSocketSimple.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="NetAddress.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMode.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="NetModeUdp.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="NetModeTcp.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="NetInstance.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="NetSocket.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="NetSocketListening.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="NetSocketTCP.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="NetSocketUDP.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="NetSendRaw.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Send</Filter>
+    </ClCompile>
+    <ClCompile Include="NetSendPostfix.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Send</Filter>
+    </ClCompile>
+    <ClCompile Include="NetSendPrefix.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Send</Filter>
+    </ClCompile>
+    <ClCompile Include="NetSend.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Send</Filter>
+    </ClCompile>
+    <ClCompile Include="NetUtility.cpp">
+      <Filter>Source Files\NETWORKING\Sub Global</Filter>
+    </ClCompile>
+    <ClCompile Include="CriticalSection.cpp">
+      <Filter>Source Files\GLOBAL\General use\Multithreading</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcurrencyControl.cpp">
+      <Filter>Source Files\GLOBAL\General use\Multithreading</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcurrencyControlSimple.cpp">
+      <Filter>Source Files\GLOBAL\General use\Multithreading</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcurrentObject.cpp">
+      <Filter>Source Files\GLOBAL\General use\Multithreading</Filter>
+    </ClCompile>
+    <ClCompile Include="Counter.cpp">
+      <Filter>Source Files\GLOBAL\General use</Filter>
+    </ClCompile>
+    <ClCompile Include="EncryptKey.cpp">
+      <Filter>Source Files\GLOBAL\General use</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>Source Files\GLOBAL\General use</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\GLOBAL\General use</Filter>
+    </ClCompile>
+    <ClCompile Include="mnCommands.cpp">
+      <Filter>Source Files\NETWORKING\MikeNet Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Source Files\GLOBAL\General use</Filter>
+    </ClCompile>
+    <ClCompile Include="NetInstanceImplementedTCP.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadSingle.cpp">
+      <Filter>Source Files\GLOBAL\General use\Multithreading</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadSingleGroup.cpp">
+      <Filter>Source Files\GLOBAL\General use\Multithreading</Filter>
+    </ClCompile>
+    <ClCompile Include="NetCompletionPortFunction.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Completion Port</Filter>
+    </ClCompile>
+    <ClCompile Include="CompletionPort.cpp">
+      <Filter>Source Files\GLOBAL\General use\Multithreading</Filter>
+    </ClCompile>
+    <ClCompile Include="CompletionKey.cpp">
+      <Filter>Source Files\GLOBAL\General use\Multithreading</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcurrencyEvent.cpp">
+      <Filter>Source Files\GLOBAL\General use\Multithreading</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorReport.cpp">
+      <Filter>Source Files\GLOBAL\Error dealing</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadSingleMessage.cpp">
+      <Filter>Source Files\GLOBAL\General use\Multithreading</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadMessageItem.cpp">
+      <Filter>Source Files\GLOBAL\General use\Multithreading</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadMessageItemShutdown.cpp">
+      <Filter>Source Files\GLOBAL\General use\Multithreading</Filter>
+    </ClCompile>
+    <ClCompile Include="Testing.cpp">
+      <Filter>Documentation</Filter>
+    </ClCompile>
+    <ClCompile Include="ComUtility.cpp">
+      <Filter>Source Files\GLOBAL\COM</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadMessageItemAddPortMap.cpp">
+      <Filter>Source Files\UNIVERSAL PLUG AND PLAY\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadMessageItemDeletePortMap.cpp">
+      <Filter>Source Files\UNIVERSAL PLUG AND PLAY\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadMessageItemSetPortMapEnabled.cpp">
+      <Filter>Source Files\UNIVERSAL PLUG AND PLAY\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadMessageItemSetPortMapDescription.cpp">
+      <Filter>Source Files\UNIVERSAL PLUG AND PLAY\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadMessageItemSetPortMapInternalIP.cpp">
+      <Filter>Source Files\UNIVERSAL PLUG AND PLAY\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadMessageItemSetPortMapInternalPort.cpp">
+      <Filter>Source Files\UNIVERSAL PLUG AND PLAY\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadMessageItemUpdateNat.cpp">
+      <Filter>Source Files\UNIVERSAL PLUG AND PLAY\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ComString.cpp">
+      <Filter>Source Files\GLOBAL\COM</Filter>
+    </ClCompile>
+    <ClCompile Include="UpnpNatAction.cpp">
+      <Filter>Source Files\UNIVERSAL PLUG AND PLAY\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="UpnpNatPortMapAction.cpp">
+      <Filter>Source Files\UNIVERSAL PLUG AND PLAY\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="UpnpNatCommunication.cpp">
+      <Filter>Source Files\UNIVERSAL PLUG AND PLAY\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="UpnpNatActionThread.cpp">
+      <Filter>Source Files\UNIVERSAL PLUG AND PLAY\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadSingleMessageKeepLast.cpp">
+      <Filter>Source Files\GLOBAL\General use\Multithreading</Filter>
+    </ClCompile>
+    <ClCompile Include="UpnpNatUtility.cpp">
+      <Filter>Source Files\UNIVERSAL PLUG AND PLAY\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadMessageItemEncrypt.cpp">
+      <Filter>Source Files\GLOBAL\General use</Filter>
+    </ClCompile>
+    <ClCompile Include="EncryptionThread.cpp">
+      <Filter>Source Files\GLOBAL\General use</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundDevice.cpp">
+      <Filter>Source Files\SOUND\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundDeviceInput.cpp">
+      <Filter>Source Files\SOUND\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundDeviceOutput.cpp">
+      <Filter>Source Files\SOUND\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundFormat.cpp">
+      <Filter>Source Files\SOUND\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundInstanceInput.cpp">
+      <Filter>Source Files\SOUND\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundInstanceOutput.cpp">
+      <Filter>Source Files\SOUND\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundInstance.cpp">
+      <Filter>Source Files\SOUND\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadSingleMessageKeepLastUser.cpp">
+      <Filter>Source Files\GLOBAL\General use\Multithreading</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundCallbackThread.cpp">
+      <Filter>Source Files\SOUND\Sub Global</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadMessageItemSoundCallback.cpp">
+      <Filter>Source Files\SOUND\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="mnSound.cpp">
+      <Filter>Source Files\SOUND\MikeNet Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundUtility.cpp">
+      <Filter>Source Files\SOUND\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryUsageLog.cpp">
+      <Filter>Source Files\GLOBAL\General use</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryUsageLogRestricted.cpp">
+      <Filter>Source Files\GLOBAL\General use</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryUsageRestricted.cpp">
+      <Filter>Source Files\GLOBAL\General use</Filter>
+    </ClCompile>
+    <ClCompile Include="UsageTracker.cpp">
+      <Filter>Source Files\GLOBAL\General use</Filter>
+    </ClCompile>
+    <ClCompile Include="ComparatorInteger.cpp">
+      <Filter>Source Files\GLOBAL\General use\Store</Filter>
+    </ClCompile>
+    <ClCompile Include="ComparatorNetAddress.cpp">
+      <Filter>Source Files\GLOBAL\General use\Store</Filter>
+    </ClCompile>
+    <ClCompile Include="Comparator.cpp">
+      <Filter>Source Files\GLOBAL\General use\Store</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryRecyclePacket.cpp">
+      <Filter>Source Files\GLOBAL\General use</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryRecyclePacketRestricted.cpp">
+      <Filter>Source Files\GLOBAL\General use</Filter>
+    </ClCompile>
+    <ClCompile Include="NetModeTcpRaw.cpp">
+      <Filter>Source Files\NETWORKING\Classes\Mode</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FullInclude.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UPnPFullInclude.h">
+      <Filter>Header Files\UNIVERSAL PLUG AND PLAY</Filter>
+    </ClInclude>
+    <ClInclude Include="mnNAT.h">
+      <Filter>Header Files\UNIVERSAL PLUG AND PLAY\MikeNet Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkFullInclude.h">
+      <Filter>Header Files\NETWORKING</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketFullInclude.h">
+      <Filter>Header Files\NETWORKING\Classes\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="SendFullInclude.h">
+      <Filter>Header Files\NETWORKING\Classes\Send</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceFullInclude.h">
+      <Filter>Header Files\NETWORKING\Classes\Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalInclude.h">
+      <Filter>Header Files\GLOBAL</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorFunctions.h">
+      <Filter>Header Files\GLOBAL\Error dealing</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalDefinitions.h">
+      <Filter>Header Files\GLOBAL\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalObjects.h">
+      <Filter>Header Files\GLOBAL\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="mnDBPWrapper.h">
+      <Filter>Header Files\GLOBAL\DBP</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundFullInclude.h">
+      <Filter>Header Files\SOUND</Filter>
+    </ClInclude>
+    <ClInclude Include="_ManageSoundOutput.h">
+      <Filter>Header Files\SOUND\Sub Global</Filter>
+    </ClInclude>
+    <ClInclude Include="mnCommands.h">
+      <Filter>Header Files\NETWORKING\MikeNet Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="NetInstanceBroadcast.h">
+      <Filter>Header Files\NETWORKING\Classes\Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="NetInstanceClient.h">
+      <Filter>Header Files\NETWORKING\Classes\Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="NetInstanceContainer.h">
+      <Filter>Header Files\NETWORKING\Classes\Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="NetInstanceGroup.h">
+      <Filter>Header Files\NETWORKING\Classes\Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="NetInstanceProfile.h">
+      <Filter>Header Files\NETWORKING\Classes\Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="NetInstanceServer.h">
+      <Filter>Header Files\NETWORKING\Classes\Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="NetServerClient.h">
+      <Filter>Header Files\NETWORKING\Classes\Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="NetInstanceUDP.h">
+      <Filter>Header Files\NETWORKING\Classes\Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="NetInstanceTCP.h">
+      <Filter>Header Files\NETWORKING\Classes\Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="NetModeUdpCatchAllNo.h">
+      <Filter>Header Files\NETWORKING\Classes\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="NetModeUdpCatchAll.h">
+      <Filter>Header Files\NETWORKING\Classes\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="NetModeTcpPrefixSize.h">
+      <Filter>Header Files\NETWORKING\Classes\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="NetModeUdpPerClient.h">
+      <Filter>Header Files\NETWORKING\Classes\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="NetModeTcpPostfix.h">
+      <Filter>Header Files\NETWORKING\Classes\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="NetSocketSimple.h">
+      <Filter>Header Files\NETWORKING\Classes\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="NetAddress.h">
+      <Filter>Header Files\NETWORKING\Classes\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="NetSocket.h">
+      <Filter>Header Files\NETWORKING\Classes\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="NetSocketListening.h">
+      <Filter>Header Files\NETWORKING\Classes\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="NetSocketTCP.h">
+      <Filter>Header Files\NETWORKING\Classes\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="NetSocketUDP.h">
+      <Filter>Header Files\NETWORKING\Classes\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="NetInstance.h">
+      <Filter>Header Files\NETWORKING\Classes\Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMode.h">
+      <Filter>Header Files\NETWORKING\Classes\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="NetModeTcp.h">
+      <Filter>Header Files\NETWORKING\Classes\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="NetModeUdp.h">
+      <Filter>Header Files\NETWORKING\Classes\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="NetSendRaw.h">
+      <Filter>Header Files\NETWORKING\Classes\Send</Filter>
+    </ClInclude>
+    <ClInclude Include="NetSendPostfix.h">
+      <Filter>Header Files\NETWORKING\Classes\Send</Filter>
+    </ClInclude>
+    <ClInclude Include="NetSendPrefix.h">
+      <Filter>Header Files\NETWORKING\Classes\Send</Filter>
+    </ClInclude>
+    <ClInclude Include="NetSend.h">
+      <Filter>Header Files\NETWORKING\Classes\Send</Filter>
+    </ClInclude>
+    <ClInclude Include="NetUtility.h">
+      <Filter>Header Files\NETWORKING\Sub Global</Filter>
+    </ClInclude>
+    <ClInclude Include="CriticalSection.h">
+      <Filter>Header Files\GLOBAL\General use\Multithreading</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcurrencyControl.h">
+      <Filter>Header Files\GLOBAL\General use\Multithreading</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcurrencyControlSimple.h">
+      <Filter>Header Files\GLOBAL\General use\Multithreading</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcurrentObject.h">
+      <Filter>Header Files\GLOBAL\General use\Multithreading</Filter>
+    </ClInclude>
+    <ClInclude Include="Counter.h">
+      <Filter>Header Files\GLOBAL\General use</Filter>
+    </ClInclude>
+    <ClInclude Include="EncryptKey.h">
+      <Filter>Header Files\GLOBAL\General use</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>Header Files\GLOBAL\General use</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\GLOBAL\General use</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreVector.h">
+      <Filter>Header Files\GLOBAL\General use\Store</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreQueue.h">
+      <Filter>Header Files\GLOBAL\General use\Store</Filter>
+    </ClInclude>
+    <ClInclude Include="Store.h">
+      <Filter>Header Files\GLOBAL\General use\Store</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files\GLOBAL\General use</Filter>
+    </ClInclude>
+    <ClInclude Include="NetInstanceImplementedTCP.h">
+      <Filter>Header Files\NETWORKING\Classes\Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadSingle.h">
+      <Filter>Header Files\GLOBAL\General use\Multithreading</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadSingleGroup.h">
+      <Filter>Header Files\GLOBAL\General use\Multithreading</Filter>
+    </ClInclude>
+    <ClInclude Include="NetCompletionPortFunction.h">
+      <Filter>Header Files\NETWORKING\Classes\Completion Port</Filter>
+    </ClInclude>
+    <ClInclude Include="CompletionPort.h">
+      <Filter>Header Files\GLOBAL\General use\Multithreading</Filter>
+    </ClInclude>
+    <ClInclude Include="CompletionKey.h">
+      <Filter>Header Files\GLOBAL\General use\Multithreading</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcurrencyEvent.h">
+      <Filter>Header Files\GLOBAL\General use\Multithreading</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorReport.h">
+      <Filter>Header Files\GLOBAL\Error dealing</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadSingleMessage.h">
+      <Filter>Header Files\GLOBAL\General use\Multithreading</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadMessageItem.h">
+      <Filter>Header Files\GLOBAL\General use\Multithreading</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadMessageItemShutdown.h">
+      <Filter>Header Files\GLOBAL\General use\Multithreading</Filter>
+    </ClInclude>
+    <ClInclude Include="ComUtility.h">
+      <Filter>Header Files\GLOBAL\COM</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadMessageItemAddPortMap.h">
+      <Filter>Header Files\UNIVERSAL PLUG AND PLAY\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadMessageItemDeletePortMap.h">
+      <Filter>Header Files\UNIVERSAL PLUG AND PLAY\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadMessageItemSetPortMapEnabled.h">
+      <Filter>Header Files\UNIVERSAL PLUG AND PLAY\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadMessageItemSetPortMapDescription.h">
+      <Filter>Header Files\UNIVERSAL PLUG AND PLAY\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadMessageItemSetPortMapInternalIP.h">
+      <Filter>Header Files\UNIVERSAL PLUG AND PLAY\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadMessageItemSetPortMapInternalPort.h">
+      <Filter>Header Files\UNIVERSAL PLUG AND PLAY\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadMessageItemUpdateNat.h">
+      <Filter>Header Files\UNIVERSAL PLUG AND PLAY\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="UpnpNatPortMapAction.h">
+      <Filter>Header Files\UNIVERSAL PLUG AND PLAY\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="UpnpNatAction.h">
+      <Filter>Header Files\UNIVERSAL PLUG AND PLAY\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="UpnpNat.h">
+      <Filter>Header Files\UNIVERSAL PLUG AND PLAY\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="UpnpNatPortMap.h">
+      <Filter>Header Files\UNIVERSAL PLUG AND PLAY\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="UpnpNatCommunication.h">
+      <Filter>Header Files\UNIVERSAL PLUG AND PLAY\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="UpnpNatActionThread.h">
+      <Filter>Header Files\UNIVERSAL PLUG AND PLAY\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadSingleMessageKeepLast.h">
+      <Filter>Header Files\GLOBAL\General use\Multithreading</Filter>
+    </ClInclude>
+    <ClInclude Include="ComString.h">
+      <Filter>Header Files\GLOBAL\COM</Filter>
+    </ClInclude>
+    <ClInclude Include="UpnpNatUtility.h">
+      <Filter>Header Files\UNIVERSAL PLUG AND PLAY\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadMessageItemEncrypt.h">
+      <Filter>Header Files\GLOBAL\General use</Filter>
+    </ClInclude>
+    <ClInclude Include="EncryptionThread.h">
+      <Filter>Header Files\GLOBAL\General use</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundDevice.h">
+      <Filter>Header Files\SOUND\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundDeviceInput.h">
+      <Filter>Header Files\SOUND\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundFormat.h">
+      <Filter>Header Files\SOUND\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundInstanceInput.h">
+      <Filter>Header Files\SOUND\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundDeviceOutput.h">
+      <Filter>Header Files\SOUND\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundInstanceOutput.h">
+      <Filter>Header Files\SOUND\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundInstance.h">
+      <Filter>Header Files\SOUND\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadSingleMessageKeepLastUser.h">
+      <Filter>Header Files\GLOBAL\General use\Multithreading</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundCallbackThread.h">
+      <Filter>Header Files\SOUND\Sub Global</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadMessageItemSoundCallback.h">
+      <Filter>Header Files\SOUND\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="mnSound.h">
+      <Filter>Header Files\SOUND\MikeNet Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundUtility.h">
+      <Filter>Header Files\SOUND\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="PointerConverter.h">
+      <Filter>Header Files\GLOBAL\General use</Filter>
+    </ClInclude>
+    <ClInclude Include="BitMacros.h">
+      <Filter>Header Files\GLOBAL\General use</Filter>
+    </ClInclude>
+    <ClInclude Include="LibInclude.h">
+      <Filter>Header Files\GLOBAL</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryUsage.h">
+      <Filter>Header Files\GLOBAL\General use</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryUsageLog.h">
+      <Filter>Header Files\GLOBAL\General use</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryUsageLogRestricted.h">
+      <Filter>Header Files\GLOBAL\General use</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryUsageRestricted.h">
+      <Filter>Header Files\GLOBAL\General use</Filter>
+    </ClInclude>
+    <ClInclude Include="UsageTracker.h">
+      <Filter>Header Files\GLOBAL\General use</Filter>
+    </ClInclude>
+    <ClInclude Include="ComparatorServerClientFindByAddressUDP.h">
+      <Filter>Header Files\GLOBAL\General use\Store</Filter>
+    </ClInclude>
+    <ClInclude Include="StdComparator.h">
+      <Filter>Header Files\GLOBAL\General use\Store</Filter>
+    </ClInclude>
+    <ClInclude Include="Comparator.h">
+      <Filter>Header Files\GLOBAL\General use\Store</Filter>
+    </ClInclude>
+    <ClInclude Include="ComparatorInteger.h">
+      <Filter>Header Files\GLOBAL\General use\Store</Filter>
+    </ClInclude>
+    <ClInclude Include="ComparatorNetAddress.h">
+      <Filter>Header Files\GLOBAL\General use\Store</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryRecyclePacket.h">
+      <Filter>Header Files\GLOBAL\General use</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryRecyclePacketRestricted.h">
+      <Filter>Header Files\GLOBAL\General use</Filter>
+    </ClInclude>
+    <ClInclude Include="NetModeTcpRaw.h">
+      <Filter>Header Files\NETWORKING\Classes\Mode</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Additional Files\MikeNet.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

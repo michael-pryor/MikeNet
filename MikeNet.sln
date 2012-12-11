@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MikeNet", "MikeNet\MikeNet.vcxproj", "{85336BE0-3A05-4694-9B25-90F09BB7D8D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release C++ DLL|Win32 = Release C++ DLL|Win32
+		Release C++ DLL|x64 = Release C++ DLL|x64
+		Release C++ Lib 2008|Win32 = Release C++ Lib 2008|Win32
+		Release C++ Lib 2008|x64 = Release C++ Lib 2008|x64
+		Release C++ Lib Debug vs 2008|Win32 = Release C++ Lib Debug vs 2008|Win32
+		Release C++ Lib Debug vs 2008|x64 = Release C++ Lib Debug vs 2008|x64
+		Release C++ Lib Debug vs 2010|Win32 = Release C++ Lib Debug vs 2010|Win32
+		Release C++ Lib Debug vs 2010|x64 = Release C++ Lib Debug vs 2010|x64
+		Release C++ Lib Debug|Win32 = Release C++ Lib Debug|Win32
+		Release C++ Lib Debug|x64 = Release C++ Lib Debug|x64
+		Release C++ Lib vs 2008|Win32 = Release C++ Lib vs 2008|Win32
+		Release C++ Lib vs 2008|x64 = Release C++ Lib vs 2008|x64
+		Release C++ Lib vs 2010|Win32 = Release C++ Lib vs 2010|Win32
+		Release C++ Lib vs 2010|x64 = Release C++ Lib vs 2010|x64
+		Release C++ Lib|Win32 = Release C++ Lib|Win32
+		Release C++ Lib|x64 = Release C++ Lib|x64
+		Release CLR|Win32 = Release CLR|Win32
+		Release CLR|x64 = Release CLR|x64
+		Release DBP|Win32 = Release DBP|Win32
+		Release DBP|x64 = Release DBP|x64
+		Testing Beta|Win32 = Testing Beta|Win32
+		Testing Beta|x64 = Testing Beta|x64
+		Testing|Win32 = Testing|Win32
+		Testing|x64 = Testing|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ DLL|Win32.ActiveCfg = Release C++ DLL|Win32
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ DLL|Win32.Build.0 = Release C++ DLL|Win32
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ DLL|x64.ActiveCfg = Release C++ DLL|x64
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ DLL|x64.Build.0 = Release C++ DLL|x64
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ Lib 2008|Win32.ActiveCfg = Release C++ Lib vs 2008|x64
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ Lib 2008|x64.ActiveCfg = Release C++ Lib vs 2008|x64
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ Lib 2008|x64.Build.0 = Release C++ Lib vs 2008|x64
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ Lib Debug vs 2008|Win32.ActiveCfg = Release C++ Lib Debug vs 2008|Win32
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ Lib Debug vs 2008|Win32.Build.0 = Release C++ Lib Debug vs 2008|Win32
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ Lib Debug vs 2008|x64.ActiveCfg = Release C++ Lib Debug vs 2008|x64
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ Lib Debug vs 2008|x64.Build.0 = Release C++ Lib Debug vs 2008|x64
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ Lib Debug vs 2010|Win32.ActiveCfg = Release C++ Lib Debug vs 2010|Win32
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ Lib Debug vs 2010|Win32.Build.0 = Release C++ Lib Debug vs 2010|Win32
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ Lib Debug vs 2010|x64.ActiveCfg = Release C++ Lib Debug vs 2010|x64
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ Lib Debug vs 2010|x64.Build.0 = Release C++ Lib Debug vs 2010|x64
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ Lib Debug|Win32.ActiveCfg = Release C++ Lib Debug|Win32
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ Lib Debug|Win32.Build.0 = Release C++ Lib Debug|Win32
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ Lib Debug|x64.ActiveCfg = Release C++ Lib Debug|x64
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ Lib Debug|x64.Build.0 = Release C++ Lib Debug|x64
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ Lib vs 2008|Win32.ActiveCfg = Release C++ Lib vs 2008|Win32
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ Lib vs 2008|Win32.Build.0 = Release C++ Lib vs 2008|Win32
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ Lib vs 2008|x64.ActiveCfg = Release C++ Lib vs 2008|x64
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ Lib vs 2008|x64.Build.0 = Release C++ Lib vs 2008|x64
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ Lib vs 2010|Win32.ActiveCfg = Release C++ Lib vs 2010|Win32
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ Lib vs 2010|Win32.Build.0 = Release C++ Lib vs 2010|Win32
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ Lib vs 2010|x64.ActiveCfg = Release C++ Lib vs 2010|x64
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ Lib vs 2010|x64.Build.0 = Release C++ Lib vs 2010|x64
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ Lib|Win32.ActiveCfg = Release C++ Lib|Win32
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ Lib|Win32.Build.0 = Release C++ Lib|Win32
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ Lib|x64.ActiveCfg = Release C++ Lib|x64
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release C++ Lib|x64.Build.0 = Release C++ Lib|x64
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release CLR|Win32.ActiveCfg = Release CLR|Win32
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release CLR|Win32.Build.0 = Release CLR|Win32
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release CLR|x64.ActiveCfg = Release CLR|x64
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release CLR|x64.Build.0 = Release CLR|x64
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release DBP|Win32.ActiveCfg = Release DBP|Win32
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release DBP|Win32.Build.0 = Release DBP|Win32
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release DBP|x64.ActiveCfg = Release DBP|x64
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Release DBP|x64.Build.0 = Release DBP|x64
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Testing Beta|Win32.ActiveCfg = Testing Beta|Win32
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Testing Beta|Win32.Build.0 = Testing Beta|Win32
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Testing Beta|x64.ActiveCfg = Testing Beta|x64
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Testing Beta|x64.Build.0 = Testing Beta|x64
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Testing|Win32.ActiveCfg = Testing|Win32
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Testing|Win32.Build.0 = Testing|Win32
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Testing|x64.ActiveCfg = Testing|x64
+		{85336BE0-3A05-4694-9B25-90F09BB7D8D1}.Testing|x64.Build.0 = Testing|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
