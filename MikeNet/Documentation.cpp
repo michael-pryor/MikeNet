@@ -25,7 +25,7 @@
  * using a Shutdown method/command. After this any further attempt to send to the client will fail.
  * The TCP connection status will now return NetUtility::NO_SEND_RECV on both the client and server side.
  * Now any data left in the TCP packet queue on the client and server side can be extracted. Once
- * the queue is empty the connection can be completely closed and the cleanup process begun. \n
+ * the queue is empty the connection can be completely closed and the clean-up process begun. \n
  * @image html FullyDisconnected.png
  */
 
@@ -133,7 +133,7 @@
  * @mainpage MikeNet v2.0.2
  *
  * @section intro_sec Introduction
- * MikeNet is an open source well documented windows networking API for C++, .NET based languages (e.g. C#, VB.NET), DarkBASIC Pro and any language that has the ability to call functions of a DLL.
+ * MikeNet is an <a href="https://github.com/watfordxp/MikeNet"><b>open source</b></a> well documented windows networking API for C++, .NET based languages (e.g. C#, VB.NET), DarkBASIC Pro and any language that has the ability to call functions of a DLL.
  * MikeNet is lightweight, flexible and efficient and took approximately one year to develop. It includes the following core functionality:
  * - TCP data transfer using packets.
  * - UDP data transfer.
@@ -147,7 +147,7 @@
  *
  * The lower levels are only available to C++ users, who can use the classes provided to create more complex, high performing systems. Users can 
  * extend classes and plug them into other subsystems of MikeNet. e.g. You can create a class inheriting NetModeUdp and create your own UDP mode, which can then
- * be plugged into other classes such as NetSocketUDP or NetInstanceServer. This makes MikeNet highly flexible, and means that it can be easily modified to fulfill
+ * be plugged into other classes such as NetSocketUDP or NetInstanceServer. This makes MikeNet highly flexible, and means that it can be easily modified to fulfil
  * any networking requirement.
  *
  * At higher levels you have a set of easy to use commands built for usage in a procedural manner. These commands can be found in @link mn networking@endlink, @link mnSound sound@endlink and @link mnNAT UPnP NAT@endlink sections and are
@@ -158,10 +158,18 @@
  * You can download a visual studio 2010 and 2012 solution containing a number of sample projects using MikeNet from <a href="demo_code.rar"><b>here</b></a>.
  *
  * @section contact_sec Contact
- * If you have any questions about MikeNet feel free to email pryor.michael@gmail.com. I will usually reply within 24 hours.
+ * If you have any questions about MikeNet feel free to email <a href="mailto:pryor.michael@gmail.com" target="_blank"><b>pryor.michael@gmail.com</b></a>. I will usually reply within 24 hours.
  * 
  * @section purchase_sec Purchase
- * MikeNet costs 39.99 GBP (one off payment) and allows royalty free usage under the license agreement outlined below. If you wish to purchase multiple licenses please contact me for a cheaper price.
+ * You can purchase a precompiled version with an installer of the API which can quickly be integrated into your projects. Your purchase includes:
+ * - C++ 32 bit and 64 bit debug and release libraries and pdb files for visual studio 2010 and 2012
+ * - C++ 32 bit release library and pdb file for visual studio 2008
+ * - DarkBASIC Pro DLL
+ * - .NET/CLR 32 bit and 64 bit DLL
+ * - Normal 32 bit and 64 bit DLL
+ * - Documentation
+ * - Demo code
+ * <br><br>
  * @htmlonly
  * <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
  * <input type="hidden" name="cmd" value="_s-xclick">
@@ -170,9 +178,6 @@
  * <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
  * </form> 
  * @endhtmlonly
- *
- * Agreement: A single copy of MikeNet may be used in the creation of software on only one computer at a time. You may modify any API internal code at will and
- * can distribute MikeNet code with your project. Any software created using MikeNet is not covered by this license and can be used freely. 
  */
 
 /**

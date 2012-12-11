@@ -6,7 +6,7 @@
 
 // If defined the main page will be designed for the index page of the website.
 // If not, the main page will be designed for the index page of documentation given to users.
-//#define WEBSITE_MODE
+#define WEBSITE_MODE
 
 // If undefined then libraries will be included. This should be defined when compiling
 // MikeNet, and undefined if precompiled libraries are being used.
