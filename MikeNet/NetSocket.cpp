@@ -21,6 +21,12 @@ void NetSocket::DefaultVariables()
  */
 void NetSocket::AllocateBuffer(size_t bufferLength)
 {
+	// If the buffer is too big lets allocate the biggest we can,
+	// It hopefully won't impact the protocol.
+	if(bufferLength > ULONG_MAX) {
+		bufferLength = ULONG_MAX;
+	}
+
 	recvBuffer.len = static_cast<ULONG>(bufferLength);
 	if(bufferLength > 0)
 	{
