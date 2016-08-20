@@ -160,8 +160,8 @@
  * @section contact_sec Contact
  * If you have any questions about MikeNet feel free to email <a href="mailto:pryor.michael@gmail.com" target="_blank"><b>pryor.michael@gmail.com</b></a>. I will usually reply within 24 hours.
  * 
- * @section purchase_sec Purchase
- * You can purchase a precompiled version with an installer of the API which can quickly be integrated into your projects. Your purchase includes:
+ * @section Download
+ * I have made a precompiled version with an installer which can quickly be integrated into your projects. The package includes:
  * - C++ 32 bit and 64 bit debug and release libraries and pdb files for visual studio 2010 and 2012
  * - C++ 32 bit release library and pdb file for visual studio 2008
  * - DarkBASIC Pro DLL
@@ -169,14 +169,9 @@
  * - Normal 32 bit and 64 bit DLL
  * - Documentation
  * - Demo code
- * <br><br>
- * @htmlonly
- * <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
- * <input type="hidden" name="cmd" value="_s-xclick">
- * <input type="hidden" name="hosted_button_id" value="JJRKT3Y4V3RG8">
- * <input type="image" src="https://www.paypal.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online.">
- * <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
- * </form> 
+ *
+ * You can get it from <a href="DarkNet v2.0.2 - Release_TGC.rar"><b>here</b></a>.
+ *
  * @endhtmlonly
  */
 
