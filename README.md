@@ -1,7 +1,6 @@
 MikeNet
 =======
-
-See http://www.mikenetapi.net for more information.
+Windows based highly performant networking API
 
 License
 =======
